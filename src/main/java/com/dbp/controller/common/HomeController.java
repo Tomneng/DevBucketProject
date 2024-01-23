@@ -14,7 +14,6 @@ public class HomeController {
     @GetMapping("/home")
     @CrossOrigin
     public ResponseEntity<?> home(){
-        return new ResponseEntity<>("hi22", HttpStatus.OK);
+        return new ResponseEntity<>("hi", HttpStatus.OK);
     }
-    //이거 왜이러지
 }
